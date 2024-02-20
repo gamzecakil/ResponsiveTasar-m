@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#009BFF"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_weight="0.5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:gravity="center"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="40dp">
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gorusme_logo"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_weight="0.35"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="20dp"
+    android:paddingRight="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/txtContact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Contact"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAdress1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="101 North Road"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/txtAdress2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicago,IL 90388"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/txtMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="contact@company.com"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_weight="0.15"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:paddingRight="25dp"
+    android:paddingLeft="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgPhone"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/tel_image"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgMessage"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/message_image"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgMail"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/email_image"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgLocation"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/location_image"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+</LinearLayout>
